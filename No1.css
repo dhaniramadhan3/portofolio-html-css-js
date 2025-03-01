@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 2px solid #000000;
+  padding: 7px;
+
+}
+
+th {
+  background-color: #41c9e2;
+  color: rgb(255, 255, 255);
+}
+
+th a {
+  color: black;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+th a:hover {
+  color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+  height: 14.5cm;
+  background: url(LOGO.png) center/contain no-repeat;
+
+}
+
+td.description {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 35px;
+  background-color: #414141;
+  color: rgb(216, 213, 213);
+  
+}
+
+td.description p {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
